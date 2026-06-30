@@ -3,14 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>개인정보 처리방침 - 통다 (Tongda)</title>
+    <title>개인정보 처리방침 · Privacy Policy - 통다 (Tongda)</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
             line-height: 1.8;
@@ -19,7 +14,6 @@
             padding: 20px;
             padding-bottom: env(safe-area-inset-bottom, 20px);
         }
-
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -28,214 +22,183 @@
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-
-        h1 {
-            font-size: 28px;
-            color: #1a1a1a;
-            margin-bottom: 10px;
-            font-weight: 700;
+        h1 { font-size: 28px; color: #1a1a1a; margin-bottom: 10px; font-weight: 700; }
+        .app-info { color: #666; font-size: 14px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid #e0e0e0; }
+        .app-info strong { color: #444; }
+        .effective-date { display: inline-block; background-color: #f0f0f0; padding: 6px 12px; border-radius: 6px; font-size: 13px; margin-top: 8px; }
+        .lang-toggle { display: flex; gap: 8px; margin-bottom: 24px; }
+        .lang-toggle button {
+            font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+            padding: 8px 16px; border-radius: 8px; border: 1px solid #d0d0d0; background: #fff; color: #555;
         }
-
-        .app-info {
-            color: #666;
-            font-size: 14px;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #e0e0e0;
-        }
-
-        .effective-date {
-            display: inline-block;
-            background-color: #f0f0f0;
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 13px;
-            margin-top: 8px;
-        }
-
-        h2 {
-            font-size: 20px;
-            color: #2c3e50;
-            margin-top: 40px;
-            margin-bottom: 16px;
-            font-weight: 600;
-            padding-left: 12px;
-            border-left: 4px solid #4CAF50;
-        }
-
-        h2:first-of-type {
-            margin-top: 20px;
-        }
-
-        p {
-            margin-bottom: 16px;
-            font-size: 15px;
-        }
-
-        .highlight-box {
-            background-color: #e8f5e9;
-            border: 2px solid #4CAF50;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-        }
-
-        .highlight-box p {
-            margin-bottom: 12px;
-            font-weight: 500;
-            color: #2e7d32;
-        }
-
-        .highlight-box p:last-child {
-            margin-bottom: 0;
-        }
-
-        ul {
-            margin: 16px 0;
-            padding-left: 24px;
-        }
-
-        li {
-            margin-bottom: 10px;
-            font-size: 15px;
-        }
-
-        strong {
-            color: #1a1a1a;
-            font-weight: 600;
-        }
-
-        .contact-info {
-            background-color: #f5f5f5;
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
-
-        .contact-info p {
-            margin-bottom: 8px;
-        }
-
-        .footer {
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #e0e0e0;
-            text-align: center;
-            color: #888;
-            font-size: 13px;
-        }
-
-        @media (max-width: 600px) {
-            body {
-                padding: 10px;
-            }
-
-            .container {
-                padding: 20px;
-            }
-
-            h1 {
-                font-size: 24px;
-            }
-
-            h2 {
-                font-size: 18px;
-            }
-
-            p, li {
-                font-size: 14px;
-            }
-        }
+        .lang-toggle button.active { background: #2c3e50; color: #fff; border-color: #2c3e50; }
+        h2 { font-size: 20px; color: #2c3e50; margin-top: 36px; margin-bottom: 14px; font-weight: 700; }
+        p { margin-bottom: 14px; }
+        ul { margin: 0 0 14px 22px; }
+        li { margin-bottom: 8px; }
+        .note { background: #f5f8fb; border-left: 4px solid #4a90d9; padding: 12px 16px; border-radius: 6px; margin-bottom: 16px; font-size: 15px; }
+        .local-badge { display: inline-block; background: #e6f6ec; color: #1f7a44; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-left: 4px; }
+        .share-badge { display: inline-block; background: #fdeee6; color: #b5601e; font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; margin-left: 4px; }
+        a { color: #2c6fb5; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 16px; font-size: 14px; }
+        th, td { text-align: left; padding: 10px; border-bottom: 1px solid #eee; vertical-align: top; }
+        th { background: #f6f7f8; }
+        footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid #e0e0e0; color: #888; font-size: 13px; }
+        .hidden { display: none; }
     </style>
 </head>
 <body>
-    <div class="container">
+<div class="container">
+    <div class="lang-toggle">
+        <button id="btn-ko" class="active" onclick="setLang('ko')">한국어</button>
+        <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+
+    <!-- ================= KOREAN ================= -->
+    <section id="ko">
         <h1>개인정보 처리방침</h1>
         <div class="app-info">
-            <p><strong>앱 이름:</strong> 통다 (Tongda)</p>
-            <p><strong>패키지:</strong> studio.leco.tongda</p>
-            <p><strong>개발자:</strong> Leco (leco.studio)</p>
-            <div class="effective-date">시행일자: 2026년 2월 16일</div>
+            <div><strong>앱:</strong> 통다 (Tongda) · <code>studio.leco.tongda</code></div>
+            <div><strong>개발:</strong> Leco · <strong>문의:</strong> <a href="mailto:contact@leco.studio">contact@leco.studio</a></div>
+            <div class="effective-date">시행일: 2026년 6월 30일</div>
         </div>
 
-        <div class="highlight-box">
-            <p><strong>📱 통다는 사용자의 모든 데이터를 기기 내부에만 저장합니다.</strong></p>
-            <p>서버 전송, 클라우드 동기화, 외부 API 호출이 전혀 없습니다. 사용자의 건강 정보는 오직 사용자의 기기에만 존재하며, 개발자나 제3자가 접근할 수 없습니다.</p>
+        <p>통다(Tongda)는 만성 통증을 기록·관리하는 모바일 앱입니다. 본 방침은 통다가 어떤 정보를 처리하고 어떻게 보호하는지 설명합니다. 통다는 사용자의 건강 기록을 <strong>기기 내부에만</strong> 저장하며, 별도의 계정이나 클라우드 동기화를 제공하지 않습니다.</p>
+
+        <h2>1. 처리하는 정보</h2>
+        <p><strong>건강 기록(통증 일기)</strong> <span class="local-badge">기기에만 저장</span><br>
+        통증 강도(0–10), 신체 부위 표시 그림, 증상 설명, 처치·치료 기록(약·운동·물리치료·시술 등), 통증 이슈명·시작일·상태, 기록 시각. 이 데이터는 기기의 로컬 데이터베이스에만 저장되며 외부 서버로 전송되지 않습니다.</p>
+
+        <p><strong>위치 정보</strong> <span class="share-badge">외부 전송(날씨)</span><br>
+        홈 화면에 현재 날씨를 표시하기 위해 기기의 위치(위도·경도)를 사용합니다. 좌표는 날씨 조회를 위해 <strong>Open-Meteo 날씨 서비스</strong>로 전송됩니다. 위치는 앱에 저장되지 않으며, 날씨 표시 이외의 용도로 사용하지 않습니다. 위치 권한을 허용하지 않아도 앱의 다른 기능은 정상 동작합니다.</p>
+
+        <p><strong>광고 식별자</strong> <span class="share-badge">외부 전송(광고)</span><br>
+        무료 버전에서 보상형 광고를 제공하기 위해 <strong>Google AdMob</strong>을 사용합니다. AdMob은 광고 식별자(AAID) 등 정보를 Google의 정책에 따라 수집·이용할 수 있습니다. 프리미엄 구매 시 광고는 표시되지 않습니다.</p>
+
+        <p><strong>구매 정보</strong><br>
+        프리미엄 잠금 해제(<code>premium_unlock</code>) 인앱 구매는 <strong>Google Play</strong>가 처리합니다. 결제 수단 정보는 앱이 수집하지 않으며, 앱은 구매 여부(이용 권한)만 전달받습니다.</p>
+
+        <h2>2. 수집하지 않는 정보</h2>
+        <p>통다는 이름, 이메일, 전화번호, 계정 정보를 수집하지 않습니다. 클라우드 동기화나 서버 백업을 제공하지 않으며, 건강 기록을 외부로 판매·공유하지 않습니다.</p>
+
+        <h2>3. 데이터 저장 및 삭제</h2>
+        <p>모든 통증 기록은 기기 로컬에만 저장됩니다. 앱을 삭제하면 기기에 저장된 데이터가 함께 삭제됩니다. 사용자는 앱 내에서 개별 기록을 직접 수정·삭제할 수 있습니다.</p>
+
+        <h2>4. 데이터 내보내기(백업)</h2>
+        <p>사용자가 직접 자신의 기록을 HTML 또는 JSON 파일로 내보낼 수 있습니다. 내보낸 파일은 사용자가 선택한 위치에 저장되며 전적으로 사용자의 관리 하에 있습니다.</p>
+
+        <h2>5. 제3자 서비스</h2>
+        <table>
+            <tr><th>서비스</th><th>용도</th><th>전송 정보</th></tr>
+            <tr><td>Google AdMob</td><td>무료 버전 광고</td><td>광고 식별자(AAID) 등</td></tr>
+            <tr><td>Open-Meteo</td><td>날씨 표시</td><td>위치 좌표(위도·경도)</td></tr>
+            <tr><td>Google Play 결제</td><td>인앱 구매 처리</td><td>구매 거래(Google이 처리)</td></tr>
+        </table>
+        <p>Google의 개인정보처리방침: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> · Open-Meteo: <a href="https://open-meteo.com/en/terms">open-meteo.com</a></p>
+
+        <h2>6. 권한</h2>
+        <ul>
+            <li><strong>인터넷</strong> — 날씨 조회 및 광고</li>
+            <li><strong>위치</strong> — 현재 날씨 표시(선택)</li>
+            <li><strong>알림</strong> — 기록 리마인더</li>
+            <li><strong>정확한 알람</strong> — 리마인더를 지정 시각에 표시</li>
+            <li><strong>광고 ID</strong> — 광고 제공</li>
+        </ul>
+
+        <h2>7. 데이터 보안</h2>
+        <p>건강 기록은 기기 내부에 저장되어 외부로 전송되지 않습니다. 외부 전송이 발생하는 항목은 날씨 표시를 위한 위치 좌표와 광고를 위한 광고 식별자에 한합니다.</p>
+
+        <h2>8. 아동 개인정보</h2>
+        <p>본 앱은 만 14세 미만 아동을 주 대상으로 하지 않습니다.</p>
+
+        <h2>9. 방침 변경</h2>
+        <p>본 방침이 변경되는 경우 본 페이지를 통해 변경 내용을 고지합니다.</p>
+
+        <h2>10. 문의</h2>
+        <p>개인정보 처리에 관한 문의: <a href="mailto:contact@leco.studio">contact@leco.studio</a></p>
+    </section>
+
+    <!-- ================= ENGLISH ================= -->
+    <section id="en" class="hidden">
+        <h1>Privacy Policy</h1>
+        <div class="app-info">
+            <div><strong>App:</strong> Tongda · <code>studio.leco.tongda</code></div>
+            <div><strong>Developer:</strong> Leco · <strong>Contact:</strong> <a href="mailto:contact@leco.studio">contact@leco.studio</a></div>
+            <div class="effective-date">Effective date: June 30, 2026</div>
         </div>
 
-        <h2>1. 수집하는 정보</h2>
-        <p>통다는 다음과 같은 정보를 수집합니다. <strong>모든 정보는 기기 내부에만 저장됩니다.</strong></p>
+        <p>Tongda is a mobile app for tracking and managing chronic pain. This policy explains what information Tongda processes and how it is protected. Tongda stores your health records <strong>only on your device</strong> and provides no account or cloud sync.</p>
+
+        <h2>1. Information We Process</h2>
+        <p><strong>Health records (pain diary)</strong> <span class="local-badge">on-device only</span><br>
+        Pain intensity (0–10), body-map drawings, symptom notes, treatment records (medication, exercise, physical therapy, procedures, etc.), pain issue name / start date / status, and timestamps. This data is stored only in the device's local database and is never sent to any server.</p>
+
+        <p><strong>Location</strong> <span class="share-badge">sent externally (weather)</span><br>
+        Your device location (latitude/longitude) is used to show current weather on the home screen. The coordinates are sent to the <strong>Open-Meteo</strong> weather service to retrieve weather. Location is not stored by the app and is used only to display weather. The app's other features work even if you deny the location permission.</p>
+
+        <p><strong>Advertising identifier</strong> <span class="share-badge">sent externally (ads)</span><br>
+        The free version uses <strong>Google AdMob</strong> to show rewarded ads. AdMob may collect and use the advertising ID (AAID) and related information in accordance with Google's policies. No ads are shown after a Premium purchase.</p>
+
+        <p><strong>Purchase information</strong><br>
+        The Premium unlock (<code>premium_unlock</code>) in-app purchase is handled by <strong>Google Play</strong>. The app does not collect payment details and only receives your entitlement (purchased or not).</p>
+
+        <h2>2. Information We Do Not Collect</h2>
+        <p>Tongda does not collect your name, email, phone number, or account information. It provides no cloud sync or server backup, and never sells or shares your health records.</p>
+
+        <h2>3. Data Storage & Deletion</h2>
+        <p>All pain records are stored only on your device. Uninstalling the app deletes the data stored on the device. You can edit or delete individual records within the app at any time.</p>
+
+        <h2>4. Data Export (Backup)</h2>
+        <p>You can export your own records as an HTML or JSON file. The exported file is saved to a location you choose and remains entirely under your control.</p>
+
+        <h2>5. Third-Party Services</h2>
+        <table>
+            <tr><th>Service</th><th>Purpose</th><th>Data sent</th></tr>
+            <tr><td>Google AdMob</td><td>Ads (free version)</td><td>Advertising ID (AAID), etc.</td></tr>
+            <tr><td>Open-Meteo</td><td>Weather display</td><td>Location coordinates (lat/lon)</td></tr>
+            <tr><td>Google Play Billing</td><td>In-app purchase</td><td>Purchase transaction (handled by Google)</td></tr>
+        </table>
+        <p>Google Privacy Policy: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a> · Open-Meteo: <a href="https://open-meteo.com/en/terms">open-meteo.com</a></p>
+
+        <h2>6. Permissions</h2>
         <ul>
-            <li><strong>통증 기록:</strong> 통증 강도(0-10 단계), 신체 부위 그림, 증상 설명, 기록 시간</li>
-            <li><strong>처방 기록:</strong> 처방 유형(약, 운동, 물리치료, 수술, 기타), 메모, 기록 시간</li>
-            <li><strong>통증 이슈 정보:</strong> 통증 이름, 시작 일자, 최종 수정 일자, 상태(진행중/완료)</li>
-        </ul>
-        <p><strong>수집하지 않는 정보:</strong></p>
-        <ul>
-            <li>이름, 이메일, 전화번호 등 개인 식별 정보</li>
-            <li>위치 정보</li>
-            <li>기기 고유 식별자</li>
-            <li>사용 통계 또는 분석 데이터</li>
+            <li><strong>Internet</strong> — weather lookup and ads</li>
+            <li><strong>Location</strong> — show current weather (optional)</li>
+            <li><strong>Notifications</strong> — record reminders</li>
+            <li><strong>Exact alarm</strong> — deliver reminders at the scheduled time</li>
+            <li><strong>Ad ID</strong> — serve ads</li>
         </ul>
 
-        <h2>2. 정보 사용 목적</h2>
-        <p>수집된 정보는 다음 목적으로만 사용됩니다.</p>
-        <ul>
-            <li>사용자의 통증 기록 저장 및 관리</li>
-            <li>통증 패턴 시각화 (24시간 차트, 월별 달력 히트맵)</li>
-            <li>통증 이슈별 상세 정보 조회</li>
-            <li>처방 기록 추적 및 관리</li>
-        </ul>
-        <p><strong>모든 처리는 기기 내부에서만 이루어지며, 외부로 전송되지 않습니다.</strong></p>
+        <h2>7. Data Security</h2>
+        <p>Health records are stored on your device and are not transmitted externally. The only data sent off-device is location coordinates (for weather) and the advertising identifier (for ads).</p>
 
-        <h2>3. 정보 저장 및 보안</h2>
-        <p>통다는 모든 데이터를 기기의 로컬 저장소(LocalStorage)에 저장합니다.</p>
-        <ul>
-            <li><strong>저장 위치:</strong> 사용자 기기 내부 (앱 전용 저장 공간)</li>
-            <li><strong>저장 방식:</strong> JSON 형식으로 로컬 저장소에 저장</li>
-            <li><strong>보안:</strong> Android 운영체제의 앱 샌드박스에 의해 보호됨</li>
-            <li><strong>접근 권한:</strong> 오직 통다 앱만 해당 데이터에 접근 가능</li>
-        </ul>
-        <p>앱을 삭제하면 모든 데이터가 영구적으로 삭제됩니다. 개발자는 사용자의 데이터를 복구할 수 없습니다.</p>
+        <h2>8. Children's Privacy</h2>
+        <p>This app is not primarily directed at children under 14.</p>
 
-        <h2>4. 제3자 제공 및 공유</h2>
-        <p><strong>통다는 사용자의 정보를 제3자와 공유하지 않습니다.</strong></p>
-        <ul>
-            <li>서버로 데이터를 전송하지 않습니다</li>
-            <li>광고 네트워크를 사용하지 않습니다</li>
-            <li>분석 도구(Google Analytics 등)를 사용하지 않습니다</li>
-            <li>제3자 SDK를 포함하지 않습니다 (Capacitor WebView 제외)</li>
-        </ul>
-        <p><strong>인터넷 권한 안내:</strong> 통다는 INTERNET 권한을 요청하지만, 이는 Capacitor WebView의 기본 동작을 위한 것입니다. 실제로 네트워크 통신을 수행하지 않으며, 사용자 데이터를 전송하지 않습니다.</p>
+        <h2>9. Changes to This Policy</h2>
+        <p>If this policy changes, we will post the updated version on this page.</p>
 
-        <h2>5. 사용자 권리</h2>
-        <p>사용자는 다음과 같은 권리를 가집니다.</p>
-        <ul>
-            <li><strong>조회:</strong> 기록 화면에서 모든 저장된 데이터를 조회할 수 있습니다</li>
-            <li><strong>수정:</strong> 개별 통증 기록 및 처방 기록을 수정할 수 있습니다</li>
-            <li><strong>삭제:</strong> 개별 기록 또는 전체 데이터를 삭제할 수 있습니다</li>
-            <li><strong>백업/복원:</strong> 설정 화면에서 데이터를 백업하고 복원할 수 있습니다</li>
-        </ul>
-        <p>모든 권리는 앱 내에서 직접 행사할 수 있으며, 개발자의 승인이나 개입이 필요하지 않습니다.</p>
+        <h2>10. Contact</h2>
+        <p>For privacy inquiries: <a href="mailto:contact@leco.studio">contact@leco.studio</a></p>
+    </section>
 
-        <h2>6. 미성년자 개인정보 보호</h2>
-        <p>통다는 연령 제한 없이 모든 사용자가 사용할 수 있습니다. 미성년자의 경우에도 모든 데이터는 기기 내부에만 저장되며, 외부로 전송되지 않습니다.</p>
+    <footer>© 2026 Leco · 통다 (Tongda)</footer>
+</div>
 
-        <h2>7. 개인정보 처리방침 변경</h2>
-        <p>본 개인정보 처리방침은 법령 및 서비스 변경에 따라 수정될 수 있습니다. 변경 시 앱 업데이트 또는 GitHub 저장소를 통해 공지합니다.</p>
-
-        <h2>8. 연락처</h2>
-        <div class="contact-info">
-            <p>개인정보 처리방침과 관련하여 문의사항이 있으시면 아래 연락처로 문의해 주시기 바랍니다.</p>
-            <p><strong>개발사:</strong> Leco (leco.studio)</p>
-            <p><strong>이메일:</strong> contact@leco.studio</p>
-            <p><strong>GitHub:</strong> <a href="https://github.com/choi32013/PainDiary_v2" target="_blank">github.com/choi32013/PainDiary_v2</a></p>
-        </div>
-
-        <div class="footer">
-            <p>이 문서는 통다 앱의 개인정보 처리 정책을 명시하며, 시행일자부터 효력이 발생합니다.</p>
-            <p>© 2026 Leco. All rights reserved.</p>
-        </div>
-    </div>
+<script>
+    function setLang(lang) {
+        var ko = document.getElementById('ko'), en = document.getElementById('en');
+        var bko = document.getElementById('btn-ko'), ben = document.getElementById('btn-en');
+        var isKo = lang === 'ko';
+        ko.classList.toggle('hidden', !isKo);
+        en.classList.toggle('hidden', isKo);
+        bko.classList.toggle('active', isKo);
+        ben.classList.toggle('active', !isKo);
+        document.documentElement.lang = lang;
+    }
+    if ((navigator.language || '').toLowerCase().indexOf('ko') !== 0) {
+        setLang('en');
+    }
+</script>
 </body>
 </html>
